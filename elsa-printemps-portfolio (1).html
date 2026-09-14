@@ -737,7 +737,6 @@
 
 <!-- ================= 3. THE GARDEN OF SEASONS ================= -->
 <section class="seasons" id="seasons">
-  <div class="flower-field flower-field--soft"></div>
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow" data-i18n="sea.eyebrow">The Garden of Seasons</span>
@@ -752,7 +751,6 @@
 
 <!-- ================= 4. THE GARDEN OF CONCEPTS ================= -->
 <section id="concepts">
-  <div class="flower-field flower-field--soft"></div>
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow" data-i18n="con.eyebrow">Concepts</span>
@@ -891,7 +889,6 @@
 
 <!-- ================= 5. NEW HORIZONS ================= -->
 <section class="showcase" id="horizons">
-  <div class="flower-field flower-field--soft"></div>
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow" data-i18n="hor.eyebrow">New Horizons</span>
@@ -929,7 +926,6 @@
 
 <!-- ================= 6. CONNECT ================= -->
 <section id="connect">
-  <div class="flower-field flower-field--soft"></div>
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow" data-i18n="conn.eyebrow">Connect</span>
@@ -1443,7 +1439,7 @@
     else document.addEventListener('ep:pieces-ready', build, { once:true });
   })();
 
-  // ---- Motion flower field (all sections) ----
+  // ---- Motion flower field (hero + about only) ----
   (function initFlowerFields(){
     const fields = document.querySelectorAll('.flower-field');
     if(!fields.length) return;
